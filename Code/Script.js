@@ -93,10 +93,10 @@ function create_base(i,ii){
         creater.style.backgroundColor='darkolivegreen'
     }else if(line_desert[ii].includes(i)){
         creater.groundtype="desert"
-        creater.style.backgroundColor='goldenrod'
+        creater.style.backgroundColor='darkolivegreen'
     }else{
         creater.groundtype="ground"
-        creater.style.backgroundColor='green'
+        creater.style.backgroundColor='darkolivegreen'
     }
     creater.style.left=String(i*50)+"px"
     creater.style.top=String(ii*50)+"px"
