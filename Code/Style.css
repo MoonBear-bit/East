@@ -1,0 +1,43 @@
+body{
+    position: relative;
+    height: 1000px;
+    width: 2000px;
+    margin: 0;
+    background-color: gray;
+    z-index: 0;
+}
+.world{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 1000px;
+    width: 2000px;
+    background-image: url(../Image/world.png);
+    opacity: 0;
+}
+.ground{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    opacity: 0.8;
+}
+.newgame{
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    font-size: 40px;
+    border: 5px solid black;
+}
+.loadgame{
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    top: 120px;
+    left: 0px;
+    opacity: 1;
+    font-size: 40px;
+    border: 5px solid black;
+}
